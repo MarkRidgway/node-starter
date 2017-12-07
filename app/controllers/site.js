@@ -1,4 +1,4 @@
-var path = require('path');
+const applog = require('../utilities/app-logger');
 
 module.exports = {
   helloWorld(req, res){

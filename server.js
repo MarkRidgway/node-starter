@@ -3,7 +3,7 @@ const morgan     = require('morgan');
 const bodyParser = require('body-parser');
 const port       = process.env.PORT || 8888;
 const express    = require('express');
-const errors     = require('./app/middleware/middleware.errors');
+const errors     = require('./app/middleware/errors');
 
 // configure
 app.use(morgan('dev'));
