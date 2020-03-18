@@ -1,9 +1,12 @@
-const app        = require('express')();
-const morgan     = require('morgan');
+require('dotenv').config()
+const app = require('express')();
+const morgan = require('morgan');
 const bodyParser = require('body-parser');
-const port       = process.env.PORT || 8888;
-const express    = require('express');
-const errors     = require('./app/middleware/errors');
+const express = require('express');
+
+const errors = require('./app/middleware/errors');
+
+const port = process.env.PORT || 8888;
 
 // configure
 app.use(morgan('dev'));

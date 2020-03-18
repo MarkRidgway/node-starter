@@ -1,6 +1,8 @@
-var express        = require('express');
-var router         = express.Router();
-var siteController = require('./controllers/site');
+const express = require('express');
+
+const siteController = require('./controllers/site');
+
+const router = express.Router();
 
 // export the router
 module.exports = router;
