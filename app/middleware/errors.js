@@ -1,4 +1,4 @@
-const applog = require('../utilities/utility.app-logger');
+const applog = require('../utilities/app-logger');
 
 module.exports = {
   logErrors(error, req, res, next){
